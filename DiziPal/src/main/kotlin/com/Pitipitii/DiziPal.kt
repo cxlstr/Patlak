@@ -12,7 +12,7 @@ import okhttp3.Response
 import org.jsoup.Jsoup
 
 class DiziPal : MainAPI() {
-    override var mainUrl = "https://dizipal1203.com"
+    override var mainUrl = "https://dizipal1596.com/"
     override var name = "DiziPal"
     override val hasMainPage = true
     override var lang = "tr"
@@ -231,20 +231,21 @@ class DiziPal : MainAPI() {
                     else "${mainUrl}${if (!m3uLink.startsWith("/")) "/" else ""}$m3uLink"
                 } else m3uLink
     
-                callback.invoke(
-                    ExtractorLink(
+                                callback.invoke(
+                    newExtractorLink(
                         source = this.name,
                         name = this.name,
                         url = finalUrl,
-                        referer = iframe,
-                        quality = Qualities.Unknown.value,
-                        type = ExtractorLinkType.M3U8,
-                        headers = mapOf(
+                        type = ExtractorLinkType.M3U8
+                    ) {
+                        this.referer = iframe
+                        this.quality = Qualities.Unknown.value
+                        this.headers = mapOf(
                             "Referer" to iframe,
                             "Origin" to mainUrl,
                             "User-Agent" to USER_AGENT
                         )
-                    )
+                    }
                 )
                 return true
             } else {
