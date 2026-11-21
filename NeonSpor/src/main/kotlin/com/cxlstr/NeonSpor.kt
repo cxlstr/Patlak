@@ -1,4 +1,4 @@
-package com.lagradost
+package com.cxlstr
 
 import android.util.Log
 import com.lagradost.cloudstream3.*
