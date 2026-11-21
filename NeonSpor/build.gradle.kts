@@ -1,7 +1,7 @@
 version = 9
 
 cloudstream {
-    authors     = listOf("sarapcanagii")
+    authors     = listOf("cxlstr")
     language    = "tr"
     description = "(Açılmayan Spor Kanallar İçin VPN Gerekebilir.) NeonSpor eklentisinde BeIN Sports, Tabii Spor, S Sports, Exxen Spor, Smart Spor, Tivibu Spor ve Diğer kanallar mevcuttur."
 
