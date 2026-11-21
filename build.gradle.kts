@@ -37,13 +37,13 @@ subprojects {
 
     cloudstream {
         // when running through github workflow, GITHUB_REPOSITORY should contain current repository name
-        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/sarapcanagii/Pitipitii")
+        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/cxlstr/Patlak")
 
-        authors = listOf("sarapcanagii")
+        authors = listOf("cxlstr")
     }
 
     android {
-        namespace = "com.sarapcanagii"
+        namespace = "com.cxlstr"
 
         defaultConfig {
             minSdk = 21
