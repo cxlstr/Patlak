@@ -1,14 +1,14 @@
 version = 39
 
 cloudstream {
-    authors     = listOf("sarapcanagii")
+    authors     = listOf("cxlstr")
     language    = "tr"
     description = "En yeni dizileri güvenli ve hızlı şekilde sunar."
     status  = 1
     tvTypes = listOf("TvSeries", "Movie")
 
 
-// Bu kod sarapcanagii ve primatzeka' ya aittir. İstediginiz gibi kullanabilirsiniz.
+// Bu kod cxlstr ve Patlak' ya aittir. İstediginiz gibi kullanabilirsiniz.
     val mainFile = project.file("src/main/kotlin/com/Pitipitii/DiziPal.kt")
     val mainContent = mainFile.readText()
     val mainUrlRegex = """mainUrl\s*=\s*"https://([^"]+)"""".toRegex()
