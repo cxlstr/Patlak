@@ -121,7 +121,7 @@ def update_files(kt_file_path, gradle_file_path):
         return False
 
 if __name__ == "__main__":
-    kt_path = "DiziPal/src/main/kotlin/com/Pitipitii/DiziPal.kt"
+    kt_path = "DiziPal/src/main/kotlin/com/cxlstr/DiziPal.kt"
     gradle_path = "DiziPal/build.gradle.kts"  # Düzeltilmiş gradle dosya yolu
     
     print("Starting URL check process...")
