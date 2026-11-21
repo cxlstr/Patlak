@@ -1,0 +1,43 @@
+[
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=dizipal1596.com/&sz=32",
+        "fileHash": "sha256-786075810cf5311c43feb467dc851a803b5cd71c94c00d88fe0c954a3827f578",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/cxlstr/Patlak",
+        "fileSize": 22380,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "cxlstr"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "version": 40,
+        "internalName": "DiziPal",
+        "description": "En yeni dizileri g\u00fcvenli ve h\u0131zl\u0131 \u015fekilde sunar.",
+        "url": "https://raw.githubusercontent.com/cxlstr/Patlak/builds/DiziPal.cs3",
+        "name": "DiziPal"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=colorhunt.co&sz=%size%",
+        "fileHash": "sha256-63496ac73a913a37550b5d6b4747a87317851c62fef91a3c87560e501a7469c2",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/cxlstr/Patlak",
+        "fileSize": 20402,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "cxlstr"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 9,
+        "internalName": "NeonSpor",
+        "description": "(A\u00e7\u0131lmayan Spor Kanallar \u0130\u00e7in VPN Gerekebilir.) NeonSpor eklentisinde BeIN Sports, Tabii Spor, S Sports, Exxen Spor, Smart Spor, Tivibu Spor ve Di\u011fer kanallar mevcuttur.",
+        "url": "https://raw.githubusercontent.com/cxlstr/Patlak/builds/NeonSpor.cs3",
+        "name": "NeonSpor"
+    }
+]
