@@ -1,10 +1,10 @@
 package com.cxlstr
 
 import android.util.Log
-import com.lagradost.cloudstream3.*
-import com.lagradost.cloudstream3.utils.*
-import com.lagradost.cloudstream3.utils.AppUtils.parseJson
-import com.lagradost.cloudstream3.utils.AppUtils.toJson
+import com.cxlstr.cloudstream3.*
+import com.cxlstr.cloudstream3.utils.*
+import com.cxlstr.cloudstream3.utils.AppUtils.parseJson
+import com.cxlstr.cloudstream3.utils.AppUtils.toJson
 import java.io.InputStream
 
 class NeonSpor : MainAPI() {
